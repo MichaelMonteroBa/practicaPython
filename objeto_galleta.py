@@ -19,7 +19,7 @@ galleta2 = galleta('salada','rectangular','salada','13cm')
 # Resultados
 print(f'Tengo una galleta de {galleta1.sabor}')
 comer = input('comer galleta ? (si/no) ')
-if comer.lower() == 'si':
+if comer.lower() == 'si' or comer.lower() == 'sí' or comer.lower() == 's' or comer.lower() == 'y' or comer.lower() == 'yes':
   galleta1.comer()
-elif comer.lower() == 'no':
+elif comer.lower() == 'no' or comer.lower() == 'n' or comer.lower() == 'not':
   print('mejor no')
